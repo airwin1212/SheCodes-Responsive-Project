@@ -94,9 +94,32 @@ img {
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .row {
   display: flex;
+}
+
+@media (max-width: 576px) {
+  .middlemobile {
+    text-align: center;
+  }
+  .middlemobilebutton {
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 48px !important;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .contentImages {
+    display: none;
+  }
 }
